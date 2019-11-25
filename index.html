@@ -48,7 +48,6 @@
         const myJson = await response.json();
         const personajes = myJson.results;
         container.innerHTML = pintarTablaParaListar(personajes);
-        //console.log(personajes);
       };
       listarPersonajes();
     </script>
